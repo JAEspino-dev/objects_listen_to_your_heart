@@ -8,9 +8,11 @@ stopwatch.condition = 'New'
 stopwatch.start = () => {
     console.log('start')
 }
+
 stopwatch.end = () => {
     console.log('end')
 }
+
 stopwatch.selfdestruct = () => {
     console.log(`This ${stopwatch.material} watch has exploded!`)
 }
